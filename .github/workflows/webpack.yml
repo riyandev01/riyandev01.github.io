@@ -14,4 +14,4 @@ jobs:
     steps:
       - name: Create dir
         run: |
-          mkdir mydirname
+          mkdir mydirname && ls
